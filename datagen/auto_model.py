@@ -1,3 +1,4 @@
+'''Module providing model-related helpers'''
 import json
 
 
@@ -7,4 +8,4 @@ class AutoModel:
         self.props = props
 
     def __repr__(self):
-        return JSON.dumps(self.props)
+        return json.dumps(self.props)
